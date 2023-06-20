@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./header.module.css";
-import logo from "../assets/logo.jpg";
+import logo from "../../assets/logo.jpg";
 
 const Header = () => {
   const [menuActive, setMenuActive] = useState(false);

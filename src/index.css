@@ -8,6 +8,10 @@
   scrollbar-color: #147efb #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -18,8 +22,15 @@ body {
   padding: 0 5px;
 }
 
+.second-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
 @media (max-width: 800px) {
-  .container {
+  .container,
+  .second-container {
     width: 90%;
   }
 }
@@ -28,6 +39,7 @@ body {
   --white: #fff;
   --two: #2d2e32;
   --three: #147efb;
+  --gray: #f9f9f9;
   --main-transition: 0.3s;
 }
 

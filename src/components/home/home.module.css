@@ -1,0 +1,128 @@
+.home_content {
+  background-color: var(--gray);
+}
+
+.home {
+  margin-top: 80px;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.home .first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70%;
+  color: var(--two);
+}
+
+.image_holder,
+.text {
+  width: 50%;
+}
+
+.image_holder {
+  text-align: right;
+}
+
+.image_holder img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.home .text h1 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.home .text p:first-of-type {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.home .text p:last-of-type i {
+  color: var(--two);
+  font-size: 30px;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.home .text p:last-of-type i:first-of-type {
+  margin-right: 20px;
+}
+.home .text p:last-of-type i:hover {
+  color: var(--three);
+}
+
+.home .second {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.home .second p {
+  padding: 0 20px 0;
+  border-right: 1px solid var(--two);
+}
+
+.home .second img {
+  width: 35px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 20px;
+}
+
+@media (max-width: 800px) {
+  .home .first {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .image_holder,
+  .text {
+    width: 90%;
+  }
+
+  .image_holder {
+    text-align: center;
+  }
+
+  .home .second img {
+    width: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .home .text h1 {
+    font-size: 30px;
+  }
+
+  .home .text p:first-of-type {
+    font-size: 14px;
+  }
+
+  .home .text p:last-of-type i {
+    color: var(--two);
+    font-size: 25px;
+  }
+
+  .home .second img {
+    width: 25px;
+  }
+}
