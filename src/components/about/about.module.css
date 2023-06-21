@@ -1,0 +1,45 @@
+.about {
+  padding: 8rem 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.image_holder,
+.text {
+  width: 50%;
+  color: var(--two);
+}
+
+.image_holder {
+  background-image: url(../../assets/rear-view-programmer-working-all-night-long.jpg);
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text h3 {
+  color: var(--three);
+  text-transform: uppercase;
+}
+
+.text h2 {
+  margin: 30px 0;
+}
+
+.text p {
+  color: var(--four);
+}
+
+@media (max-width: 950px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image_holder,
+  .text {
+    width: 100%;
+  }
+}
