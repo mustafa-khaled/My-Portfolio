@@ -1,5 +1,5 @@
 import styles from "./home.module.css";
-import userPhoto from "../../assets/images.png";
+import userPhoto from "../../assets/homeImage.png";
 import html from "../../assets/html5.png";
 import css from "../../assets/css-3.png";
 import js from "../../assets/Unofficial_JavaScript_logo_2.svg.png";

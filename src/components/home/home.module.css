@@ -29,11 +29,7 @@
 }
 
 .image_holder img {
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  width: 300px;
 }
 
 .home .text h1 {
@@ -101,6 +97,7 @@
 
   .image_holder {
     text-align: center;
+    padding-top: 50px;
   }
 
   .home .second img {
