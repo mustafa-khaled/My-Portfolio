@@ -1,0 +1,55 @@
+.contact {
+  padding: 8rem 0;
+  color: var(--two);
+}
+
+.text h3 {
+  color: var(--three);
+  text-transform: uppercase;
+}
+
+.text h2 {
+  margin: 30px 0;
+}
+
+.second,
+.one {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.one {
+  gap: 20px;
+}
+
+.one a,
+.one i {
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.one a {
+  text-decoration: none;
+  color: var(--two);
+  font-weight: 400;
+}
+
+.second i {
+  font-size: 30px;
+}
+
+.second i:hover,
+.one a:hover {
+  color: var(--three);
+}
+
+@media (max-width: 600px) {
+  .second {
+    flex-direction: column;
+    align-items: start;
+  }
+}

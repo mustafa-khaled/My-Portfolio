@@ -1,0 +1,8 @@
+.projects {
+  background-color: var(--gray);
+}
+
+.projects_content {
+  padding: 8rem 0;
+  text-align: center;
+}
