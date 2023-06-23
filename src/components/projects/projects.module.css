@@ -6,6 +6,13 @@
   padding: 8rem 0;
 }
 
+.head {
+  color: var(--three);
+  padding-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .projects_content > div {
   display: flex;
   align-items: flex-start;
