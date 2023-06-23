@@ -4,5 +4,61 @@
 
 .projects_content {
   padding: 8rem 0;
-  text-align: center;
+}
+
+.projects_content > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.project_image {
+  width: 100%;
+  border: 5px solid var(--three);
+}
+
+.projects_content > div div:first-of-type,
+.projects_content > div div:last-of-type {
+  width: 50%;
+}
+
+h4 {
+  color: var(--three);
+  text-transform: uppercase;
+}
+
+p {
+  color: var(--four);
+  margin: 20px 0;
+}
+
+.link_one,
+.link_two {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 400;
+  padding: 5px 10px;
+  background-color: var(--three);
+  font-size: 13px;
+}
+
+.link_one {
+  margin-right: 10px;
+}
+
+.link_one:hover,
+.link_two:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 800px) {
+  .projects_content > div {
+    flex-direction: column-reverse;
+  }
+  .projects_content > div div:first-of-type,
+  .projects_content > div div:last-of-type {
+    width: 100%;
+    text-align: center;
+  }
 }
