@@ -30,6 +30,11 @@
 
 .image_holder img {
   width: 300px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .home .text h1 {
@@ -92,12 +97,12 @@
 
   .image_holder,
   .text {
-    width: 90%;
+    width: 100%;
   }
 
   .image_holder {
     text-align: center;
-    padding-top: 50px;
+    padding: 60px 0 30px;
   }
 
   .home .second img {
