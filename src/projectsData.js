@@ -35,4 +35,13 @@ export const data = [
     live: "https://github.com/mustafa-khaled/Udacity-weather-journal-app",
     repo: "https://github.com/mustafa-khaled/Udacity-weather-journal-app",
   },
+  {
+    id: 5,
+    title: "Fitness Website",
+    description:
+      "This is a Fitness Website using made with React and styled by Css ",
+    image: "https://i.ibb.co/M26T9F2/gym.jpg",
+    live: "https://mustafa-khaled.github.io/Fitness-Website/",
+    repo: "https://github.com/mustafa-khaled/Fitness-Website",
+  },
 ];

@@ -1,7 +1,7 @@
 {
   "icons": [
     {
-      "src": "../src/assets/logo.jpg",
+      "src": "./1.png",
       "sizes": "192x192",
       "type": "image/png"
     }
