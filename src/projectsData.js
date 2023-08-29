@@ -10,15 +10,22 @@ export const data = [
   },
   {
     id: 2,
+    title: "Hotel Dashboard",
+    description: `This is a full stack Hotel management Dashboard built using react and Supabase and styled using css The app provides a lot of features such as ( create ,delete, edit ) for "Cabins, Bookings, Guets" , all the authentication features creating new use and edit password , email , photo .`,
+    image: "https://i.ibb.co/yRpKd92/dashborad.png",
+    live: "https://ohaio-dashboard.netlify.app",
+    repo: "https://github.com/mustafa-khaled/Hotel-Dashboard",
+  },
+  {
+    id: 3,
     title: "Crud App",
     description:
       "This is a CRUD (Create, Read, Update, Delete) application built using React.js, JSON Server, CSS, and Formik. It allows you to manage a collection of products through a user-friendly interface.",
     image: "https://i.ibb.co/VgmhrsH/three.jpg",
-    live: "https://www.linkedin.com/posts/the-mustafa-khaled_react-activity-7076511794478878720-24t1?utm_source=share&utm_medium=member_desktop",
     repo: "https://github.com/mustafa-khaled/Crud-App-Json-server",
   },
   {
-    id: 3,
+    id: 4,
     title: "Positivus Landing Page",
     description:
       "Positivus Landing Page is a responsive and engaging template built with React",
@@ -27,16 +34,16 @@ export const data = [
     repo: "https://github.com/mustafa-khaled/Positivus-Landing-Page",
   },
   {
-    id: 4,
+    id: 5,
     title: "Weather Journal App",
     description:
       "Weather Journal App using Html & css & js For Udacity Nano Degree In Professional Web Development Program",
     image: "https://i.ibb.co/3mSqyHG/four.jpg",
-    live: "https://github.com/mustafa-khaled/Udacity-weather-journal-app",
+
     repo: "https://github.com/mustafa-khaled/Udacity-weather-journal-app",
   },
   {
-    id: 5,
+    id: 6,
     title: "Fitness Website",
     description:
       "This is a Fitness Website using made with React and styled by Css ",

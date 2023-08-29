@@ -6,11 +6,11 @@ const Project = () => {
     <>
       {data.map((ele) => {
         return (
-          <div key={ele.id}>
+          <div key={ele.id} className={styles["project-holder"]}>
             <div>
               <img
                 src={ele.image}
-                alt="Project Image"
+                alt="ProjectImage"
                 className={styles.project_image}
               />
             </div>
@@ -18,12 +18,22 @@ const Project = () => {
               <h4>{ele.title}</h4>
               <p>{ele.description}</p>
 
-              <a href={ele.live} target="_blank" className={styles.link_one}>
-                Live Server
-              </a>
+              {ele.live && (
+                <a
+                  href={ele.live}
+                  target="_blank"
+                  className={styles.link_one}
+                  rel="noreferrer">
+                  Live Server
+                </a>
+              )}
 
-              <a href={ele.repo} target="_blank" className={styles.link_two}>
-                Repository Link{" "}
+              <a
+                href={ele.repo}
+                target="_blank"
+                className={styles.link_two}
+                rel="noreferrer">
+                Repository Link
               </a>
             </div>
           </div>
