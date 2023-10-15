@@ -1,5 +1,5 @@
-import styles from "./projects.module.css";
 import { data } from "../../projectsData";
+import styles from "./projects.module.css";
 
 const Project = () => {
   return (
@@ -16,25 +16,18 @@ const Project = () => {
             </div>
             <div>
               <h4>{ele.title}</h4>
-              <p>{ele.description}</p>
 
-              {ele.live && (
-                <a
-                  href={ele.live}
-                  target="_blank"
-                  className={styles.link_one}
-                  rel="noreferrer">
-                  Live Server
+              <div className={styles.actions}>
+                {ele?.live && (
+                  <a href={ele.live} target="_blank" rel="noreferrer">
+                    <i className="fa-regular fa-eye"></i>
+                  </a>
+                )}
+
+                <a href={ele.repo} target="_blank" rel="noreferrer">
+                  <i className="fa-solid fa-folder-open"></i>
                 </a>
-              )}
-
-              <a
-                href={ele.repo}
-                target="_blank"
-                className={styles.link_two}
-                rel="noreferrer">
-                Repository Link
-              </a>
+              </div>
             </div>
           </div>
         );

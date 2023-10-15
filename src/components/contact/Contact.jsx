@@ -18,12 +18,13 @@ const Contact = () => {
           </div>
         </div>
         <div className={styles.one}>
-          <i className="fa-solid fa-envelope-open-text"></i>
+          <i className="fa-brands fa-linkedin"></i>
           <div>
             <h4>Linkedin</h4>
             <a
               href="https://www.linkedin.com/in/the-mustafa-khaled/"
-              target="_blank">
+              target="_blank"
+              rel="noreferrer">
               Mustafa Khaled
             </a>
           </div>

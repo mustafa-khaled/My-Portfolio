@@ -6,6 +6,8 @@ import js from "../../assets/Unofficial_JavaScript_logo_2.svg.png";
 import rea from "../../assets/react.png";
 import bootstrap from "../../assets/bootstrap-social-logo.png";
 import fire from "../../assets/logo_firebase_1920px_clr.png";
+import nextJs from "../../assets/nextjs-icon-dark-background.png";
+import tailwind from "../../assets/a_op8KnL_400x400.jpg";
 
 const Home = () => {
   return (
@@ -21,26 +23,33 @@ const Home = () => {
             <p>
               <a
                 href="https://www.linkedin.com/in/the-mustafa-khaled/"
-                target="_blank">
+                target="_blank"
+                rel="noreferrer">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="https://github.com/mustafa-khaled" target="_blank">
+              <a
+                href="https://github.com/mustafa-khaled"
+                target="_blank"
+                rel="noreferrer">
                 <i className="fa-brands fa-github"></i>
               </a>
             </p>
           </div>
           <div className={styles.image_holder}>
-            <img src={userPhoto} alt="Personal Photo" />
+            <img src={userPhoto} alt="PersonalPhoto" />
           </div>
         </div>
-        <div className={styles.second}>
+        <div className={styles["tech-stack"]}>
           <p>Tech Stack</p>
           <div>
             <img src={html} alt="html" />
             <img src={css} alt="css" />
             <img src={js} alt="js" />
-            <img src={rea} alt="eeact" />
+            <img src={rea} alt="react" />
+            <img src={nextJs} alt="nextJs" />
             <img src={bootstrap} alt="bootstrap" />
+            <img src={tailwind} alt="bootstrap" />
+
             <img src={fire} alt="firebase" />
           </div>
         </div>
