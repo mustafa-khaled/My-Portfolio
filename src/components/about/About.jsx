@@ -8,14 +8,15 @@ const About = () => {
         <h3>About Me</h3>
         <h2>Front End Developer</h2>
         <p>
-          "I am a front-end developer with a year of experience in web
-          development. I specialize in HTML, CSS, and JavaScript and enjoy
-          learning new technologies to enhance my skills. My passion for
-          programming and e-commerce has led me to develop a deep understanding
-          of user behavior and user experience. I am committed to delivering
-          creative and high-quality solutions that meet clients' needs and
-          exceed their expectations. Let's connect and discuss how I can help
-          bring your digital vision to life".
+          "I am a dynamic and results-driven Front-End Developer with a genuine
+          passion for crafting user-centric web experiences. My mission is to
+          combine creativity with technical expertise to transform client
+          visions into compelling and functional websites. Proficient in a range
+          of front-end technologies, I have a track record of delivering
+          high-quality projects that captivate users and enhance their digital
+          journeys. My dedication, problem-solving skills, and commitment to
+          staying current with industry trends position me to make a substantial
+          impact on projects and drive business success".
         </p>
       </div>
     </div>

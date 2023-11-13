@@ -3,6 +3,7 @@
 }
 
 .project-holder {
+  position: relative;
   text-align: center;
   padding: 10px;
   background-color: #eee;
@@ -17,7 +18,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 10px;
-  padding: 8rem 0;
 }
 
 .head {
@@ -36,8 +36,8 @@
 }
 
 h4 {
-  color: var(--three);
-  text-transform: uppercase;
+  color: var(--two);
+  text-transform: capitalize;
   margin: 10px 0;
 }
 
@@ -47,19 +47,65 @@ p {
 }
 
 .actions {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  background-color: #00000080;
   display: flex;
+  visibility: hidden;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
 }
 
 .actions i {
-  color: var(--two);
+  color: var(--white);
   font-size: 20px;
 }
 
 .actions i:hover {
   color: var(--three);
+}
+
+.project-holder:hover .actions {
+  height: 100%;
+  visibility: visible;
+}
+
+.filter {
+  padding: 4rem 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.filter li {
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+
+.filter li.active {
+  color: var(--white);
+  background-color: var(--three);
 }
 
 @media (max-width: 800px) {
