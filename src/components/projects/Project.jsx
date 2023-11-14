@@ -2,7 +2,10 @@ import styles from "./projects.module.css";
 
 function Project({ ele }) {
   return (
-    <div className={styles["project-holder"]}>
+    <div
+      className={styles["project-holder"]}
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom">
       <div>
         <img
           src={ele.image}

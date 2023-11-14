@@ -56,7 +56,7 @@ const Home = () => {
     <div className={styles.home_content} id="home">
       <div className={`${styles.home} second-container`}>
         <div className={styles["hero-section"]}>
-          <div className={styles.text}>
+          <div className={styles.text} data-aos="fade-right">
             <h1>Front-End Developer</h1>
             <p>
               Hi, I'm Mustafa Khaled. A passionate Front-end React Developer
@@ -77,11 +77,14 @@ const Home = () => {
               </a>
             </p>
           </div>
-          <div className={styles.image_holder}>
+          <div className={styles.image_holder} data-aos="fade-left">
             <img src={userPhoto} alt="PersonalPhoto" />
           </div>
         </div>
-        <div className={styles["tech-stack"]}>
+        <div
+          className={styles["tech-stack"]}
+          data-aos="fade-up"
+          data-aos-duration="2000">
           <p>Tech Stack</p>
           <div>
             {images?.map((i) => {
