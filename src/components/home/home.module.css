@@ -4,18 +4,19 @@
 
 .home {
   margin-top: 80px;
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
+  gap: 50px;
 }
 
-.home .first {
+.home .hero-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70%;
+  gap: 20px;
   color: var(--two);
 }
 
@@ -94,10 +95,11 @@
 }
 
 @media (max-width: 800px) {
-  .home .first {
+  .home .hero-section {
     flex-direction: column-reverse;
     text-align: center;
     justify-content: space-around;
+    gap: 70px;
   }
 
   .image_holder,
@@ -107,7 +109,12 @@
 
   .image_holder {
     text-align: center;
-    padding: 60px 0 30px;
+    padding: 60px 0;
+  }
+
+  .image_holder img {
+    width: 250px;
+    height: 250px;
   }
 
   .home .tech-stack {

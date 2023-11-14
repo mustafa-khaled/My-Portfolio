@@ -118,3 +118,19 @@ p {
     text-align: center;
   }
 }
+
+@media (max-width: 400px) {
+  .projects_content {
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  }
+
+  .filter {
+    gap: 10px;
+  }
+
+  .filter li {
+    padding: 5px 8px;
+
+    font-size: 13px;
+  }
+}

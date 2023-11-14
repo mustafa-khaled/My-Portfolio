@@ -7,8 +7,8 @@ const Contact = () => {
         <h3>Contact Me</h3>
         <h2> Don't be shy! Hit me up! 👇</h2>
       </div>
-      <div className={styles.second}>
-        <div className={styles.one}>
+      <div className={styles["contact-info"]}>
+        <div className={styles["contact-link"]}>
           <i className="fa-solid fa-envelope-open-text"></i>
           <div>
             <h4>Email</h4>
@@ -17,7 +17,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className={styles.one}>
+        <div className={styles["contact-link"]}>
           <i className="fa-brands fa-linkedin"></i>
           <div>
             <h4>Linkedin</h4>
