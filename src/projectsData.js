@@ -7,6 +7,15 @@ export const data = [
     repo: "https://github.com/mustafa-khaled/Exclusive-online-store",
     category: "react",
   },
+
+  {
+    id: 24,
+    title: "Real State Website",
+    image: "https://i.ibb.co/dJR77LY/realstate.jpg",
+    live: "https://newcapitalwebsite.netlify.app/",
+    repo: "https://github.com/mustafa-khaled/Real-Estate-Website",
+    category: "react",
+  },
   {
     id: 2,
     title: "Admin Dashboard",
