@@ -16,6 +16,7 @@ export const data = [
     repo: "https://github.com/mustafa-khaled/Real-Estate-Website",
     category: "react",
   },
+
   {
     id: 2,
     title: "Admin Dashboard",
@@ -24,6 +25,7 @@ export const data = [
     repo: "https://github.com/mustafa-khaled/Admin-Dashboard",
     category: "react",
   },
+
   {
     id: 3,
     title: "entertainment App",
@@ -32,6 +34,7 @@ export const data = [
     repo: "https://github.com/mustafa-khaled/Entertainment-App",
     category: "react",
   },
+
   {
     id: 4,
     title: "Positivus Landing Page",
@@ -40,6 +43,7 @@ export const data = [
     repo: "https://github.com/mustafa-khaled/Positivus-Landing-Page",
     category: "react",
   },
+
   {
     id: 5,
     title: "Gaming Website",
@@ -48,6 +52,16 @@ export const data = [
     repo: "https://github.com/mustafa-khaled/Gaming-App",
     category: "react",
   },
+
+  {
+    id: 25,
+    title: "Quiz App",
+    image: "https://i.ibb.co/1JQv43M/quizApp.jpg",
+    live: "https://frontquiz.netlify.app/",
+    repo: "https://github.com/mustafa-khaled/Quiz-App",
+    category: "react",
+  },
+
   {
     id: 6,
     title: "Fitness Website",
