@@ -18,6 +18,15 @@ export const data = [
   },
 
   {
+    id: 26,
+    title: "Pizza Ordering App",
+    image: "https://i.ibb.co/brqJK2J/pizza.jpg",
+    live: "https://pizzaco.netlify.app/",
+    repo: "https://github.com/mustafa-khaled/Fast-Pizza",
+    category: "react",
+  },
+
+  {
     id: 2,
     title: "Admin Dashboard",
     image: "https://i.ibb.co/fxtDwDQ/admin-Dashnoard.jpg",
