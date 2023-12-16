@@ -3,10 +3,8 @@ import styles from "./about.module.css";
 const About = () => {
   return (
     <div className={`${styles.about} second-container`} id="about">
-      <div
-        className={`${styles.image_holder} ${styles.box}`}
-        data-aos="zoom-in-right"></div>
-      <div className={styles.text} data-aos="zoom-in-left">
+      <div className={`${styles.image_holder} ${styles.box}`}></div>
+      <div className={styles.text}>
         <h3>About Me</h3>
         <h2>Front End Developer</h2>
         <p>

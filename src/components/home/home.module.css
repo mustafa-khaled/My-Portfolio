@@ -113,8 +113,8 @@
   }
 
   .image_holder img {
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
   }
 
   .home .tech-stack {
@@ -123,6 +123,7 @@
 
   .home .tech-stack p {
     padding: 0 5px 0;
+    font-size: 15px;
   }
   .home .tech-stack img {
     width: 30px;
@@ -144,6 +145,6 @@
   }
 
   .home .tech-stack img {
-    width: 25px;
+    width: 20px;
   }
 }
